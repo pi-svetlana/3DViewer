@@ -1,6 +1,5 @@
 #include "converter.h"
 
-#include <utility>
 
 void Converter::ScaleModel(double scale) {
   for (auto& point : data_->vertexes) {
