@@ -1,9 +1,6 @@
-//
-// Created by oleg golomonzin on 15.03.2024.
-//
-
 #ifndef VIEWER_SRC_MODEL_MODEL_H_
 #define VIEWER_SRC_MODEL_MODEL_H_
+
 #include "../observer/observable.h"
 #include "converter.h"
 #include "obj_parser.h"
