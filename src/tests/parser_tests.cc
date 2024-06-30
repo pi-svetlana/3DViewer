@@ -4,7 +4,6 @@
 
 #include "../model/obj_parser.h"
 
-
 TEST(Parsing, parse_vertexes_file) {
   ObjData obj_data;
   ObjParser parser{&obj_data};

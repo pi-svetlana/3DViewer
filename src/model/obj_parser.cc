@@ -4,7 +4,6 @@
 #include <iostream>
 #include <string>
 
-
 void ObjParser::Parse(std::ifstream &in_stream) {
   std::string line;
   while (std::getline(in_stream, line)) {

@@ -2,7 +2,6 @@
 
 #include <algorithm>
 
-
 void Observable::AddObserver(Observer* const observer) {
   if ((std::find(registered_observers_.begin(), registered_observers_.end(),
                  observer) == registered_observers_.end())) {

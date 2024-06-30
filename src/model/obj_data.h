@@ -4,7 +4,6 @@
 
 #include "vertex.h"
 
-
 struct ObjData {
   std::vector<Vertex> vertexes;
   std::vector<int> vertex_indexes;

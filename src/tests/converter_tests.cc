@@ -2,7 +2,6 @@
 
 #include "../model/converter.h"
 
-
 ObjData mod;
 ObjData res;
 

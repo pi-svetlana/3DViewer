@@ -5,7 +5,6 @@
 
 #include "../model/obj_data.h"
 
-
 class Context {
  public:
   std::string message;

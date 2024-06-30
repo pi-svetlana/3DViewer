@@ -5,7 +5,6 @@
 
 #include "observer.h"
 
-
 class Observable {
  private:
   std::list<Observer* const> registered_observers_;
@@ -17,6 +16,5 @@ class Observable {
   void NotifyObservers();
   virtual Context* GetContext() = 0;
 };
-
 
 #endif  // CPP4_3DVIEWER_V2_0_1_SRC_OBSERVER_OBSERVABLE_H_

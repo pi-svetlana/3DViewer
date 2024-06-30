@@ -2,7 +2,7 @@ CLANGFILES = */*.cc */*.h
 
 .PHONY: tests build
 
-all: install tests
+all: install
 
 build:
 	cmake -S ../ -B build -DCMAKE_BUILD_TYPE=Release $(coverage_build_flag)

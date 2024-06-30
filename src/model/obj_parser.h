@@ -8,7 +8,6 @@
 #ifndef CPP4_3DVIEWER_V2_0_1_SRC_MODEL_OBJPARSER_H_
 #define CPP4_3DVIEWER_V2_0_1_SRC_MODEL_OBJPARSER_H_
 
-
 class ObjParser {
  private:
   const boost::regex vertex_numbers_regex_{R"(-?\d+\.?\d*([eE][+-]?\d+)?)"};

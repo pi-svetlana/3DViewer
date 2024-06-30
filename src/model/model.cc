@@ -2,7 +2,6 @@
 
 #include "obj_parser.h"
 
-
 Context *Model::GetContext() { return &context_; }
 
 void Model::OpenFile(std::string file_path) {

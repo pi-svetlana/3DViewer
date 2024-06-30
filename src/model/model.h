@@ -5,7 +5,6 @@
 #include "converter.h"
 #include "obj_parser.h"
 
-
 class Model : public Observable {
  public:
   void OpenFile(std::string file_path);

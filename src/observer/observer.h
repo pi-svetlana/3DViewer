@@ -3,7 +3,6 @@
 
 #include "context.h"
 
-
 class Observer {
  public:
   virtual ~Observer() = default;
